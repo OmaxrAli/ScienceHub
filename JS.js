@@ -4,6 +4,7 @@ alert("Welcome to our website"+ name)
 
 var GG = prompt("pleas enter 1.Space 2.Animals")
 
+<<<<<<< HEAD
 while(GG != "Space"&& GG != "Animals"){
 
   GG= prompt("Pleas only put Space or Animals")
@@ -42,6 +43,16 @@ if(GG === "Space"){
 
 else if(GG === "Animals"){
   for(i=0; i<CC ;i++){
+=======
+if(GG === "Space"){
+document.write(
+  "<p>Understanding space and how it works will make us achive great things </p>"+
+  
+  "<div> <h3>"+ GG +"</h3>"+ " <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW5K_7GSTw4f5zsC-smAsGlpn040b_fXPndQ&usqp=CAU' />  </div>")
+
+}
+else if(GG === "Animals"){
+>>>>>>> dd5348732a62f20e9dd0d5a7a58414284851d93e
   document.write(
   "<p>Understanding the animals would help us interacting with nature better</p>"+
     "<div> "+
@@ -49,9 +60,15 @@ else if(GG === "Animals"){
         "<h4>Animals</h4>"+
     "</div>"
   )
+<<<<<<< HEAD
   }
+=======
+>>>>>>> dd5348732a62f20e9dd0d5a7a58414284851d93e
 }
 else{
 document.write("pleas input the correct input")
 }
+<<<<<<< HEAD
 }
+=======
+>>>>>>> dd5348732a62f20e9dd0d5a7a58414284851d93e
